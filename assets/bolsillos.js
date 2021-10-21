@@ -26,13 +26,13 @@ document.getElementById("resetB1").addEventListener("click", function () {
 
 document.getElementById("resetB2").addEventListener("click", function () {
   var saldo2 = deposito * 0;
-  var pElement = document.getElementById("montoB2");
+  var pElement = document.getElementById("montoBo2");
   pElement.innerHTML = "Su nuevo saldo es 0";
 });
 
 document.getElementById("resetB3").addEventListener("click", function () {
   var saldo3 = deposito * 0;
-  var pElement = document.getElementById("montoB3");
+  var pElement = document.getElementById("monto3");
   pElement.innerHTML = "Su nuevo saldo es 0";
 });
 
