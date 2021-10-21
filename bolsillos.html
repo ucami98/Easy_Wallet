@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Wallet</title>
+    <link rel="stylesheet" href="assets/bolsillos.css" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <fieldset id="deposito">
+        <legend>Movimientos</legend>
+        <label>Usuario: </label><input id="userb" type="text" maxlength="25"> <br><br><br>
+        <p id="disp"></p>
+        <button id="btnDisp">Consultar dinero disponible</button>
+        <br /><br />
+        <p id="selB">Por favor seleccione el bolsillo al que desea depositar</p>
+        <label>Bolsillo </label
+        ><select id="listaBtn" >
+          <option id="inicial"selected>Seleccionar Bolsillo</option>
+          <option id="bolsillo1">Bolsillo 1</option>
+          <option id="bolsillo2">Bolsillo 2</option>
+          <option id="bolsillo3">Bolsillo 3</option>
+        </select>
+        <br /><br />
+        <p id="monto">
+          *Por favor ingrese el monto que va a depositar en su bolsillo
+        </p>
+        <label>Cantidad </label><input id="cantidad2" type="number" maxlength="9" />
+        <br /><br /><br />
+        <button id="enviar">Enviar</button>
+      </fieldset>
+    </div>
+
+    <div id="pockets">
+      <fieldset id="bolsillo1">
+        <legend id="lBol1"></legend>
+        <p id="montoB1"></p>
+        <br /><br />
+        <button id="resetB1">Vaciar bolsillo</button>
+      </fieldset>
+
+      <fieldset id="bolsillo2">
+        <legend id="lBol2"></legend>
+        <p id="montoBo2"></p>
+     <br /><br />
+        <button id="resetB2">Vaciar bolsillo</button>
+      </fieldset>
+
+      <fieldset id="bolsillo3">
+        <legend id="lBol3"></legend>
+        <p id="monto3"></p>
+        <br /><br />
+        <button id="resetB3">Vaciar bolsillo</button>
+      </fieldset>
+    </div>
+    <button id="btnIndex">Volver al inicio</button>
+    <footer>
+      <p>Easy Wallet desarrollada por Dev_Dragons_Team</p>
+    </footer>
+
+    <script src="assets/bolsillos.js"></script>
+  </body>
+  
+</html>
