@@ -1,5 +1,5 @@
 document.getElementById("btnIndex").addEventListener("click", function () {
-  window.location.href = "http://127.0.0.1:5500/EasyWallet/index.html";
+  window.location.href = "https://ucami98.github.io/Easy_Wallet/";
 });
 
 document.getElementById("btnDisp").addEventListener("click", function () {

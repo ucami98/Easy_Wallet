@@ -1,5 +1,5 @@
 document.getElementById("wallet").addEventListener("click", function () {
-  window.location.href = "http://127.0.0.1:5500/EasyWallet/bolsillos.html";
+  window.location.href = "https://ucami98.github.io/Easy_Wallet/bolsillos";
 
   var user = document.getElementById("user").value;
   var psw = document.getElementById("psw").value;
